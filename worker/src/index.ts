@@ -70,7 +70,7 @@ async function main() {
     try {
       let output = '';
 
-      if (language === "js") {
+      if (language === "js" || language === "javascript") {
         const filePath = path.join(__dirname, "code", "a.js");
         fs.writeFileSync(filePath, code);
         output = await runCode("node", [filePath]);
