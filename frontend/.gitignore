@@ -12,6 +12,12 @@ dist
 dist-ssr
 *.local
 
+# Ignore local AI/editor folders
+.agents/
+.claude/
+**/.agents/
+**/.claude/
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

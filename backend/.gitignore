@@ -2,4 +2,10 @@ node_modules
 # Keep environment variables out of version control
 .env
 
+# Ignore local AI/editor folders
+.agents/
+.claude/
+**/.agents/
+**/.claude/
+
 /src/generated/prisma
