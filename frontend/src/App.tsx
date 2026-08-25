@@ -1,8 +1,7 @@
 import React, { useState } from "react";
-import { Button } from "@/components/ui/button";
 import axios from "axios";
 
-const BACKEND_URL = "http://localhost:3000";
+const BACKEND_URL = "https://compiler-dl8y.onrender.com";
 
 type Language = "cpp" | "js" | "python";
 
